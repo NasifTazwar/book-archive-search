@@ -1,0 +1,23 @@
+body{
+    font-family: 'Lobster', cursive;
+}
+#writeSomething{
+    display: none;
+}
+#resultNotFound{
+    display: none;
+}
+.show-effects:hover{
+    filter: drop-shadow(0 0 0.75rem white);
+    transform: scale(1.05);
+    transition: all 0.3s linear;
+}
+.bg-img{
+    background-image: url("../images/wallpaperbetter.com_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px ;
+    height: 450px;
+}
+.bg-img-2{
+    background-color: #726B68;
+}
